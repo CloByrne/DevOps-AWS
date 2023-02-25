@@ -1,0 +1,75 @@
+<!-- HTML by Clodagh Byrne -->
+<!doctype html>
+<html lang="en">
+  <head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+ 	<title>Contact Us | Pup Essentials | Rathfarnham Dublin</title>
+	<meta name="description" content="Contact us at our head office at Rathfarnham in Dublin. We are here to help with your doggy care enquiries from 9am to 6pm, 5 days per week.">
+	<script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="style/style-contact.css">
+  </head>
+  <body>
+    <script src='js/header.js'></script>
+	<div class="container-fluid gradient-1">
+		<div class="py-5">
+			<div class="container">
+<!--Header-->
+				<div class="border-start border-5 border-dpink ps-5 mb-5 row" style="max-width: 600px;">
+					<h6 class="text-dpink text-uppercase">Contact Details</h6>
+					<h1 class="display-5 text-uppercase mb-0">Contact us here</h1>
+				</div>
+<!--contact details-->
+				<div class="row container1">
+					<div class="row1" >
+						<div class="col-lg-12 border1"> 
+							<h3 class="text-uppercase">Contact details</h3>
+							<h5> <strong>Email:</strong> pupessentials@gmail.com </h5>
+							<h5> <strong>Phone number:</strong> +353 1 123 4567 </h5>
+							<h5> <strong>Address: </strong>Mount Venus Rd, Rathfarnham, Dublin, D16 FP80</h5>
+							<div>
+								</br>
+								<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2386.609459940377!2d-6.311157084164773!3d53.26069887996117!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48670a56129dd485%3A0xf97f779f25a4d83e!2sDSPCA!5e0!3m2!1sen!2sie!4v1670367765916!5m2!1sen!2sie" width="95%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+							</div>
+						</div>
+					</div>
+				</div>
+				</br>
+<!--contact form-->
+				<div class="row container1">
+					<div class="row2">
+						<div class="col-lg-12 border1">
+							<h3 class="text-uppercase">Contact form</h3>
+								<form action="" class="reveal-content" onsubmit="return false" id="hideform">
+									<div class="form-group">
+										<input type="text" class="form-control" id="myName" placeholder="Name">
+									</div>
+									</br>
+									<div class="form-group">
+										<input type="text" class="form-control" placeholder="Email" name="email" id="email" onBlur="email_validation();"/><span id="email_err"></span>
+									</div>
+									</br>
+									<div class="form-group">
+										<textarea class="form-control" rows="5" id="message" placeholder="Enter your message"></textarea>
+									</div>
+									</br>
+									<div class="form-group">
+										<input type="submit" onclick="alter()" name="submit" value="Submit" class=" btn btn-primary" />
+									</div>
+								</form>
+								<div>
+									<strong><span id="name"></span><span id="email"></span></strong>
+								</div>
+						</div>
+						
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+  <script src='js/footer.js'></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
+  <script src="js/contact.js" defer></script>
+</body>  
+</html>
